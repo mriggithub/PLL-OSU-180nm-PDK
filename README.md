@@ -3,11 +3,12 @@
 
 ![image](https://user-images.githubusercontent.com/92794189/137905301-931cca11-2a86-4da9-9463-8f77f6ea9b0f.png)
 * [Table of contents](#gh-md-toc)
-   * [**Introduction**](#table-of-contents)
-   * [**Proposed PLL Circuit**](#installation)
-   * [**Prelayout**](#installation)
-   * [**PostLayout**](#usage)
-   * [**Conclusion**](#stdin)
+   * [**Introduction**](#Introduction)
+   * [**Proposed PLL Circuit**](#Proposed-PLL-Circuit)
+   * [**Tools**](#Tools)
+   * [**Prelayout**](#Prelayout)
+   * [**Postlayout**](#Postlayout)
+   * [**Conclusion**](#Conclusion)
 
 **Introduction**
 
@@ -17,7 +18,19 @@ PLL is Phase Locked loop which comprises of mainly Phase frequency detector (PFD
  
  **Proposed PLL Circuit**
  
+ The proposed ciruit is deisgned to used in two modes depending upon the mode selection bit.
+ 
+ (i) When mode selection bit is '1' then the circuit works as VCO.
+ 
+ (ii) When mode selection bit is '0' then the ciruit works as PLL. 
+ 
  ![image](https://user-images.githubusercontent.com/92794189/137950158-e6da70cd-f031-42c5-a071-43d4f97335e2.png)
+ 
+ **Tools Used**
+ 
+ Design is based on EDA open source tools and OSU 180nm PDK.
+ 1. NGSPICE
+ 2. Magic
  
  **Prelayout**
  
@@ -84,7 +97,9 @@ PLL is Phase Locked loop which comprises of mainly Phase frequency detector (PFD
 
           Output Frequencies increased by 8 times
           
- **PostLayout**
+ **Postlayout**
+ 
+ Layout of each block of PLL is created using Magic and finally all are amalgamted to generate the proposed PLL/VCO layout. Layout of individual block and the final SoC is shown below:
  
  ![PFD_Layout](https://user-images.githubusercontent.com/92794189/137959730-e30a0ebc-68e2-400b-a6ce-9e2e322cef39.PNG)
             
@@ -130,9 +145,13 @@ A PLL design is presented which has the ability to increase the frequency upto e
 3. F. M. Gardner, “Charge-pump phase-lock loops,” IEEE Trans. Commun., vol. COM-28, no. 11, pp. 1849–1858, Nov. 1980
 4. B. Razavi, "Design of Monolithic Phase-Locked Loops and Clock Recovery Circuits - A Tutorial," in Monolithic Phase-Locked Loops and Clock Recovery Circuits: Theory and Design, Wiley-IEEE Press, pp. 1-39,1996.
 
+**Author**
+
+Mriganka Gogoi, Assam Don Bosco University, mrig.gogoi@gmail.com
+
 **Acknowlegement**
 
-I would like to thank the following persons for giving me the platform and technical knowledge to create this report.
+I would like to thank VLSI system design team particularly to the following persons for giving me the platform and technical knowledge to create this report.
 
 **Kunal P Ghosh**
 
