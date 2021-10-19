@@ -140,10 +140,10 @@ A PLL design is presented which has the ability to increase the frequency upto e
 
 **References:**
 
-1. https://github.com/parasgidd/avsdpll_3v3
-2. F. M Gardener, Phaselock Techniques, 2nd edition, New York: Wiley, 1979.
-3. F. M. Gardner, “Charge-pump phase-lock loops,” IEEE Trans. Commun., vol. COM-28, no. 11, pp. 1849–1858, Nov. 1980
-4. B. Razavi, "Design of Monolithic Phase-Locked Loops and Clock Recovery Circuits - A Tutorial," in Monolithic Phase-Locked Loops and Clock Recovery Circuits: Theory and Design, Wiley-IEEE Press, pp. 1-39,1996.
+1. F. M Gardener, Phaselock Techniques, 2nd edition, New York: Wiley, 1979.
+2. F. M. Gardner, “Charge-pump phase-lock loops,” IEEE Trans. Commun., vol. COM-28, no. 11, pp. 1849–1858, Nov. 1980
+3. B. Razavi, "Design of Monolithic Phase-Locked Loops and Clock Recovery Circuits - A Tutorial," in Monolithic Phase-Locked Loops and Clock Recovery Circuits: Theory and Design, Wiley-IEEE Press, pp. 1-39,1996.
+4. https://github.com/parasgidd/avsdpll_3v3
 
 **Author**
 
