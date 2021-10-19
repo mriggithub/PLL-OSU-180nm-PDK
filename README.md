@@ -29,7 +29,7 @@ PLL is Phase Locked loop which comprises of mainly Phase frequency detector (PFD
  
  ![image](https://user-images.githubusercontent.com/92794189/137951397-10ae7556-8a73-4fb1-8635-1d49e9c19685.png)
  
-                    Inverter code for simulation in ngspice
+                    Inverter simulation in ngspice
                     
  ![Inverter Output](https://user-images.githubusercontent.com/92794189/137951684-9311ef22-6218-424e-becb-e7d5d3996943.PNG)
             
