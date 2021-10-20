@@ -18,7 +18,7 @@ PLL is Phase Locked loop which comprises of mainly Phase frequency detector (PFD
  
  **Proposed PLL Circuit**
  
- The proposed ciruit is deisgned to used in two modes depending upon the mode selection bit.
+ The proposed ciruit is deisgned to use in two modes control by the mode selection bit.
  
  (i) When mode selection bit is '1' then the circuit works as VCO.
  
@@ -34,7 +34,7 @@ PLL is Phase Locked loop which comprises of mainly Phase frequency detector (PFD
  
  **Prelayout**
  
- Inverter is one of the fundamental circuits used in desining any kind of complex circuit. The circuit design shown below:
+ Inverter is one of the fundamental circuits used in designing any kind of complex circuit. The CMOS circuit design of Inverter is shown below:
  
  ![image](https://user-images.githubusercontent.com/92794189/137951622-72e18c8c-2536-4677-b391-2830ec0e3c38.png)
   
